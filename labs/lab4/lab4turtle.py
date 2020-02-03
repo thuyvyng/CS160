@@ -1,0 +1,60 @@
+import turtle
+window = turtle.Screen()
+my_turtle = turtle.Turtle()
+shape = input("What shape do you want? : Triangle, square, hexagon, and octagon. ")
+
+if shape == "hexagon":
+	turtle.position()
+	(0.00,0.00)
+	turtle.forward(45)
+	turtle.position()
+	(25.00,0.00)
+	turtle.left(60)
+	turtle.forward(45)
+	turtle.left(60)
+	turtle.forward(45)
+	turtle.left(60)
+	turtle.forward(45)
+	turtle.left(60)
+	turtle.forward(45)
+	turtle.left(60)
+	turtle.forward(45)
+
+if shape == "triangle":
+	my_turtle.position()
+	(0.00,0.00)
+	my_turtle.forward(80)
+	my_turtle.left(120)
+	my_turtle.forward(80)
+	my_turtle.left(120)
+	my_turtle.forward(80)
+
+if shape == "square":
+	my_turtle.position()
+	(0.00,0.00)
+	my_turtle.forward(100)
+	my_turtle.left(90)
+	my_turtle.forward(100)
+	my_turtle.left(90)
+	my_turtle.forward(100)
+	my_turtle.left(90)
+	my_turtle.forward(100)
+if shape == "octagon":
+	for x in range(8):
+		my_turtle.forward(100)
+		my_turtle.left(45)
+"""	my_turtle.forward(100)
+	my_turtle.left(45)
+	my_turtle.forward(100)
+	my_turtle.left(45)
+	my_turtle.forward(100)
+	my_turtle.left(45)
+	my_turtle.forward(100)
+	my_turtle.left(45)
+	my_turtle.forward(100)
+	my_turtle.left(45)
+	my_turtle.forward(100)
+	my_turtle.left(45)
+	my_turtle.forward(100)"""
+
+window.mainloop()

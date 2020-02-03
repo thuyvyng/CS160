@@ -1,0 +1,10 @@
+print("Practicing math ops and concaternation")
+print(10+5)
+print(10-5)
+print(10/5)
+print(10*5)
+print(10**5)
+print(10%5)
+print(10//5)
+print("We have " +str(300) + "new students in CS this year!")
+
